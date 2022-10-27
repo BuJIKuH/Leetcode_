@@ -7,7 +7,7 @@ class Person():
         self.full_name = first_name + " " + last_name
 
     def __str__(self):
-        return f'{self.full_name}' + '\n' + f'{self.age}'
+        return f'{self.full_name}\n{self.age}'
 
 
-Person('Yukihiro', 'Matsumoto', 47)
+print(Person('Yukihiro', 'Matsumoto', 47))
